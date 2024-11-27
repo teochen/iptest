@@ -6,6 +6,10 @@ on:
       - main
   schedule:
    - cron: '0 14 * * *'
+
+  
+  workflow_dispatch:  # 允许手动触发
+  
 jobs:
   ddy:
     runs-on: ubuntu-latest
